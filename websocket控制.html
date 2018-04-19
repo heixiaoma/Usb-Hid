@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>WebSocket</title>
+		<style type="text/css">
+			body {
+				text-align: center;
+				zoom: 5;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button id="conn">连接服务器</button><br>
+		<input type="text" id="cmd" placeholder="输入你的命令" />
+		<br>
+		<button id="send">发送</button>
+		<p id="msg">无</p>
+	</body>
+	<script type="text/javascript">
+		var ws=null;
+		var conn = document.getElementById("conn");
+		var msg=document.getElementById("msg");
+		var cmd=document.getElementById("cmd");
+		var send=document.getElementById("send");
+		//连接socket
+		conn.onclick = function() {
+			
+	    //判断当前浏览器是否支持WebSocket
+	    if ('WebSocket' in window) {
+	        ws = new WebSocket("ws://127.0.0.1:8080/stm32");
+	    }
+	    else {
+	        alert('当前浏览器 Not support websocket')
+	    }
+	    
+	    	
+		ws.onopen = function(evt) {
+			alert("连接成功！")
+		};
+
+		ws.onmessage = function(evt) {
+			msg.innerText=evt.data;
+		};
+    }
+		send.onclick=function(){
+			ws.send(cmd.value);  
+		}
+	
+
+	</script>
+
+</html>
