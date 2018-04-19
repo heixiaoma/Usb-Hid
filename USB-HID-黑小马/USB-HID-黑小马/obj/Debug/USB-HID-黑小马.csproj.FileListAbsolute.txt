@@ -1,0 +1,11 @@
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\bin\Debug\USB-HID-黑小马.exe.config
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\bin\Debug\USB-HID-黑小马.exe
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\bin\Debug\USB-HID-黑小马.pdb
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\USB-HID-黑小马.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\HIDTester.FormMain.resources
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\USB_HID_黑小马.Properties.Resources.resources
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\USB-HID-黑小马.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\USB-HID-黑小马.exe
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\obj\Debug\USB-HID-黑小马.pdb
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\bin\Debug\websocket-sharp.dll
+C:\Users\asus\Desktop\接单\Python Hid\USB-HID-黑小马\USB-HID-黑小马\bin\Debug\websocket-sharp.pdb
